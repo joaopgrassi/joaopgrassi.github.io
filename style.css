@@ -4,19 +4,19 @@ html, body {
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?p1uwaz');
-  src:  url('fonts/icomoon.eot?p1uwaz#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?p1uwaz') format('truetype'),
-    url('fonts/icomoon.woff?p1uwaz') format('woff'),
-    url('fonts/icomoon.svg?p1uwaz#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?96vac3');
+  src:  url('fonts/icomoon.eot?96vac3#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?96vac3') format('truetype'),
+    url('fonts/icomoon.woff?96vac3') format('woff'),
+    url('fonts/icomoon.svg?96vac3#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
-  
+
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -28,38 +28,20 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-    display: flex;
-    align-items: center;
-    font-family: "Courier New", Courier, monospace;
-    color: #333;
-    font-size: 21px;
-    background: #fdfdfd;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-}
-
-.social-icons-home {
-    font-size: 2.5em;
-    padding-left: 5px;
-}
-
-.icon-linkedin:before {
-  content: "\e900";
-  color: #0077b5;
-}
-.icon-ghost:before {
-  content: "\e901";
-  color: #738a94;
-}
 .icon-github:before {
-  content: "\e902";
+  content: "\e901";
 }
 .icon-keybase:before {
-  content: "\e903";
+  content: "\e902";
   color: #33a0ff;
+}
+.icon-linkedin:before {
+  content: "\e903";
+  color: #0077b5;
+}
+.icon-blog:before {
+  content: "\e900";
+  color: #ffa500;
 }
 .icon-stackoverflow:before {
   content: "\e904";
@@ -68,6 +50,24 @@ body {
 .icon-twitter:before {
   content: "\e905";
   color: #1da1f2;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  color: #333;
+  font-size: 21px;
+  background: #fdfdfd;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.social-icons-home {
+    font-size: 1.9em;
+    padding-left: 5px;
 }
 
 a, a:hover, a:visited, a:focus, a:active {
